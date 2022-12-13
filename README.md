@@ -1,6 +1,4 @@
-# lab_santas_mission
-
-**Mission:** Solve Santa's Puzzles
+# **Mission:** Solve Santa's Puzzles
 
 **Description**: You must solve a series of puzzles. The fastest group wins. 
 
@@ -11,6 +9,6 @@ There’s a secret entrance to Santa’s Workshop at one of the MTR stops. Which
 
 ---
 
-Install steps:
+**Install steps:**
 - `poetry shell`
 - `poetry install`
