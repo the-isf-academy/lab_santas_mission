@@ -1,6 +1,6 @@
 # **Mission:** Solve Santa's Puzzles
 
-**Description**: You must solve a series of puzzles. The fastest group wins. 
+**Description**: You must solve a series of puzzles. How fast can you solve it?
 
 
 **First Clue - Santa’s Workshop:** 
