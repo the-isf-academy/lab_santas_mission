@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lab-santas-mission"
+version = "0.1.0"
+description = ""
+authors = ["emma <eqbrown@isf.edu.hk>"]
+readme = "README.md"
+packages = [{include = "lab_santas_mission"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyPDF2 = "^2.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

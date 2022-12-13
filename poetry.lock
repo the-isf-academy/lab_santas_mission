@@ -1,0 +1,62 @@
+[[package]]
+name = "pyminizip"
+version = "0.2.6"
+description = "A minizip wrapper - To create a password encrypted zip file in python."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "PyPDF2"
+version = "2.12.1"
+description = "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+typing_extensions = {version = ">=3.10.0.0", markers = "python_version < \"3.10\""}
+
+[package.extras]
+crypto = ["PyCryptodome"]
+dev = ["black", "flit", "pip-tools", "pre-commit (<2.18.0)", "pytest-cov", "wheel"]
+docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
+full = ["Pillow", "PyCryptodome"]
+image = ["Pillow"]
+
+[[package]]
+name = "pyzip"
+version = "0.2.0"
+description = "PyZip is a package for handling zip-in-memory content as a dictionary."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "typing-extensions"
+version = "4.4.0"
+description = "Backported and Experimental Type Hints for Python 3.7+"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "959803981272d65c48cca7c37904ba9a4fe8bd8d7b62c32ee9270e70ad91bf30"
+
+[metadata.files]
+pyminizip = [
+    {file = "pyminizip-0.2.6.tar.gz", hash = "sha256:0a954dd2a65fd72c8b827b83fb806fb4f301075a6ec43e207d3345ab15843a7a"},
+]
+PyPDF2 = [
+    {file = "PyPDF2-2.12.1.tar.gz", hash = "sha256:e03ef18abcc75da741a0acc1a7749253496887be38cd9887bcce1cee393da45e"},
+    {file = "pypdf2-2.12.1-py3-none-any.whl", hash = "sha256:41ff16ee122bad9790d57a4235281a838002d7f1cc8d631d91b6f65d709bd825"},
+]
+pyzip = [
+    {file = "pyzip-0.2.0.tar.gz", hash = "sha256:c0b10776d798e4be9d5fe6eec541dd0a9740b6550b12fd4cfa238a085686a298"},
+]
+typing-extensions = [
+    {file = "typing_extensions-4.4.0-py3-none-any.whl", hash = "sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e"},
+    {file = "typing_extensions-4.4.0.tar.gz", hash = "sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa"},
+]
