@@ -1,12 +1,13 @@
-# helpers.py
-from PyPDF2 import PdfReader, PasswordType   
+# helper functions.py
+from PyPDF2 import PdfReader, PasswordType   ######
 
 
 # ----------------------------------------------------- #
-# Here are a few useful functions! 
-# You'll need to use these to win the prize. 
-# You may even need to write one or two of your own to finish the mission.
-#  
+'''
+Here are a few useful functions! 
+You'll need to use these to win the prize. 
+You may even need to write one or two of your own to finish the mission.
+''' 
 # ----------------------------------------------------- #
 
 def caesar_cipher(plain_text, encryption_key ):
@@ -38,4 +39,11 @@ def break_pdf(decryption_key, pdf_file):
     return False
 
 
+def number_to_letter(number):
+    # converts a number to a letter based on its position in the alphabet
+    # returns the corresponding letter 
 
+    alpha = 'abcdefghijklmnopqrstuvwxyz'
+    letter = alpha[number]
+
+    return letter
