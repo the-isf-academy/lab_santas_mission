@@ -18,7 +18,7 @@ def caesar_cipher(plain_text, encryption_key ):
 
     for letter in plain_text: 
         letter = letter.lower()
-        if letter != " ":
+        if letter in alphabet:
             letter_index = alphabet.index(letter)
             letter_encrypted_index = letter_index + encryption_key
             letter_encrypted_index = letter_encrypted_index%26
@@ -47,3 +47,16 @@ def number_to_letter(number):
     letter = alpha[number]
 
     return letter
+
+# ----------------------------------------------------- #
+'''
+Here are a few more useful functions...
+
+
+>>> '9'.isdigit()
+True
+
+>>> 'merry christmas'.split(' ')
+['merry', 'christmas']
+''' 
+# ----------------------------------------------------- #
